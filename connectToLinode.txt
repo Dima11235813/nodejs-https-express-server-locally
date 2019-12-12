@@ -1,0 +1,28 @@
+https://www.linode.com/docs/getting-started/
+
+ ssh root@45.56.114.104
+The authenticity of host '45.56.114.104 (45.56.114.104)' can't be established.
+ECDSA key fingerprint is SHA256:5/S9gUa+mR5K9bB48tllAz35z6nAV2de4QK5DkRNFOw.
+Are you sure you want to continue connecting (yes/no/[fingerprint])?
+Host key verification failed.
+
+AzureAD+DmtriLarionov@DESKTOP-PJV9OQJ MINGW64 /c/Dev/Research/NodeJs/HTTPS (master)
+$ ssh root@45.56.114.104
+The authenticity of host '45.56.114.104 (45.56.114.104)' can't be established.
+ECDSA key fingerprint is SHA256:5/S9gUa+mR5K9bB48tllAz35z6nAV2de4QK5DkRNFOw.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '45.56.114.104' (ECDSA) to the list of known hosts.
+root@45.56.114.104's password:
+Linux localhost 4.9.0-11-amd64 #1 SMP Debian 4.9.189-3 (2019-09-02) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+root@localhost:~#
+
+
+update 
+apt-get update && apt-get upgrade

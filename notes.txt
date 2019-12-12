@@ -1,0 +1,64 @@
+Linode Research
+
+Add SSH key for security
+
+https://www.linode.com/community/questions/19067/how-to-add-an-ssh-key
+https://www.linode.com/docs/networking/ssh/using-ssh-on-windows/
+
+Private key 
+aka
+id_rsa
+
+stored on local computer and kept secure
+
+public key
+aka
+id_rsa.pub
+placed on the server you intend to log in to
+can be shared with others
+
+Public key is added to server root under
+.ssh/
+under the user's home folder
+authorized_keys
+file can store more than one public key
+
+to give access to other users
+add their public key on a new line and remove it to revoke access
+TODO comments in authorized_keys file
+to know which pub key belongs to which user
+
+SSH Key Passphrases
+
+additional level of securitythe passphrase decrypts the key file locally an disn't transferred over the internet as a password might be
+
+via bash for windows
+
+ssh-keygen
+
+my key pass phrase dev env key
+
+finger print
+
+SHA256:Ohbzye8Dcu2W/LP7PqqC+6uPJXHkgU6YSa/9g+CQWkY AzureAD+DmtriLarionov@DESKTOP-PJV9OQJ
+
+random art image
+
++---[RSA 3072]----+
+|    .            |
+|   . = .         |
+|  E + + o        |
+| . . = o .       |
+|  = o * S.       |
+| + o ..@o..      |
+|.   . *+B+ .     |
+|     ..=.o* . .  |
+|      +=+=++=Bo. |
++----[SHA256]-----+
+
+
+location
+
+/c/Users/DmtriLarionov/.ssh/id_rsa)
+
+Debian 9, Linode 4GB: 2 CPU, 80GB Storage, 4GB RAM

@@ -1,0 +1,11 @@
+source
+
+https://www.linode.com/docs/getting-started/
+
+
+127.0.0.1 localhost.localdomain localhost
+203.0.113.10 hostname.example.com hostname
+
+v6
+
+2600:3c01::a123:b456:c789:d012 hostname.example.com hostname
